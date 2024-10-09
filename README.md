@@ -6,7 +6,7 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Functions Overview](#functions-overview)
-  - [calculate_base_ratio](#calculate_base_ratio)
+  - [calculate_nucleotide_ratio](#calculate_nucleotide_ratio)
   - [kmer_statistics](#kmer_statistics)
   - [calculate_common_kmers](#calculate_common_kmers)
   - [calculate_common_seqs](#calculate_common_seqs)
@@ -45,7 +45,7 @@ pip install pandas numpy matplotlib seaborn scipy openpyxl
 ## Installation
 Clone this repository and navigate to the directory:
 ```bash
-git clone <repository-url>
+git clone <https://github.com/CNU-Zyyy/APV-Sankey>
 cd APV-Sankey
 ```
 
@@ -54,11 +54,11 @@ Ensure that all required packages are installed before running any scripts.
 
 ## Functions Overview
 
-### calculate_base_ratio
+### calculate_nucleotide_ratio
 - **Description:** This function calculates the base ratio of nucleotide sequences from either `.fasta` or `.xlsx` files. It outputs the ratio of each nucleotide (A, T, C, G, and U) for each sequence.
 - **Usage:**
   ```bash
-  python APV-Sankey.py calculate_base_ratio --input ./data/your_data.fasta
+  python APV-Sankey.py calculate_nucleotide_ratio --input ./data/your_data.fasta
   ```
 
 ### kmer_statistics
