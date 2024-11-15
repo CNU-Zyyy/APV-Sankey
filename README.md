@@ -5,6 +5,7 @@
 - [Introduction](#introduction)
 - [Requirements](#requirements)
 - [Installation](#installation)
+- [Datasets](#datasets)
 - [Functions Overview](#functions-overview)
   - [calculate_nucleotide_ratio](#calculate_nucleotide_ratio)
   - [kmer_statistics](#kmer_statistics)
@@ -50,6 +51,16 @@ cd APV-Sankey
 ```
 
 Ensure that all required packages are installed before running any scripts.
+
+
+## Datasets
+We leveraged rapamycin-specific aptamers in our laboratory and thrombin-specific aptamers in a published work to evaluate the performance of our new developed APV-Sankey Toolbox
+
+### Rapamycin-specific aptamers
+Rapamycin aptamers were obtained through HT-SELEX Data in our laboratory from Rapamycin-Round X (RAPA-RX), where X stands for the number of round. By utilizing APV-Sankey for systematic aptamer analysis and visualization, we successfully identified high-performing candidate aptamers with strong binding affinity to rapamycin.
+
+### Thrombin-specific aptamers
+Thrombin-specific aptamers have previously been reported in (Zhou et al., 2019) and (Di Gioacchino et al., 2022). For more information, see https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cbic.201900265 and https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010561.
 
 
 ## Functions Overview
